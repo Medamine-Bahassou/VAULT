@@ -1,0 +1,24 @@
+{
+  "name": "vault-password-manager",
+  "version": "1.0.0",
+  "description": "A fully local, encrypted password manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.vault.passwordmanager",
+    "productName": "VAULT",
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
