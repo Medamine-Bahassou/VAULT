@@ -1,2 +1,7 @@
 # VAULT
-one shot electron app for managing passwords
+
+![](./screenshots/main.png)
+
+![](./screenshots/details.png)
+
+![](./screenshots/setting.png)
